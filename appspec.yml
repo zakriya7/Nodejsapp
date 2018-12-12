@@ -1,0 +1,8 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/nodejs
+hooks:
+  ApplicationStart:
+    - location: after_install_script.sh
